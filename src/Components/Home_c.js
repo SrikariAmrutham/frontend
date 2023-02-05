@@ -10,7 +10,7 @@ function Home()
 
         <div className="container-fluid">
          <div className="row">
-          <div className="column" >
+          <div className="col-33" >
             <div className="box-item"> 
                 <a>
                   <p className="center-position"> 
@@ -27,7 +27,7 @@ function Home()
            </div>
                                           
           </div>
-          <div className="column" >
+          <div className="col-33" >
             <div className="box-item"> 
                    <a href="">
                      <p className="center-position"> 
@@ -43,7 +43,7 @@ function Home()
                    <br/>
               </div>
           </div>
-          <div className="column" >
+          <div className="col-33" >
             <div className="box-item"> 
                    <a href="">
                      <p className="center-position"> 
