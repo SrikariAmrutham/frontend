@@ -1,7 +1,7 @@
 import './App.css';
 import {Routes,Route} from 'react-router-dom';
-import Navbar from './Components/Navbar_c';
-import Home from './Components/Home_c';
+import Navbar_c from './Components/Navbar_c';
+import Home_c from './Components/Home_c';
 import Regdet from './Components/Regdet'
 import Licdet from './Components/Licdet';
 import Perdet from './Components/Perdet';
@@ -14,9 +14,9 @@ import About from './Components/About';
 function App() {
   return (
     <>
-      <Navbar/>
+      <Navbar_c/>
       <Routes>
-      <Route path='/' element={<Home/>}></Route>
+      <Route path='/' element={<Home_c/>}></Route>
       <Route path='Regdet' element={<Regdet/>}></Route>
       <Route path='Licdet' element={<Licdet/>}></Route>
       <Route path='Perdet' element={<Perdet/>}></Route>

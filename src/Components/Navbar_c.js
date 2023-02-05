@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import logo from  "./shipment.png"
 
 
-function Navbar() {
+function Navbar_c() {
     return (
     <>
     <nav className="navbar navbar-expand-lg">
@@ -30,7 +30,7 @@ function Navbar() {
           <Link to="/About" className="nav-link" >About</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="">Logout</a>
+        <Link to="" className="nav-link" >Logout</Link>
         </li>
       </ul>
       
@@ -42,4 +42,4 @@ function Navbar() {
     </>
 );
 }
-export default Navbar
+export default Navbar_c
