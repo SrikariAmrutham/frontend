@@ -10,6 +10,7 @@ import Newreg from './Components/Newreg';
 import Newlic from './Components/Newlic';
 import Newper from './Components/Newper';
 import About from './Components/About';
+import Login from './Components/Login';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <Route path='Newlic' element={<Newlic/>}></Route>
       <Route path='Newper' element={<Newper/>}></Route>
       <Route path='About' element={<About/>}></Route>
+      <Route path='Login' element={<Login/>}></Route>
+
       </Routes>
       <Footer/>
       
@@ -47,6 +50,7 @@ export default App;
 // import Regapp from './Components/Regapp';
 // import Licapp from './Components/Licapp';
 // import Perapp from './Components/Perapp';
+// import Login from './Components/Login';
 // function App() {
 //   return (
 //     <>
@@ -59,6 +63,8 @@ export default App;
 //         <Route path='Regreport' element={<Regreport/>}></Route>
 //         <Route path='Licreport' element={<Licreport/>}></Route>
 //         <Route path='Perreport' element={<Perreport/>}></Route>
+//         <Route path='Login' element={<Login/>}></Route>
+
 
 //       </Routes>
 //       <Footer/>

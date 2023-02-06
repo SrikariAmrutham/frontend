@@ -30,7 +30,7 @@ function Navbar_c() {
           <Link to="/About" className="nav-link" >About</Link>
         </li>
         <li className="nav-item">
-        <Link to="" className="nav-link" >Logout</Link>
+        <Link to="/Login" className="nav-link" >Logout</Link>
         </li>
       </ul>
       

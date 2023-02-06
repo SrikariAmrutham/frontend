@@ -28,7 +28,7 @@ function Navbar() {
               <Link to="Perreport" className="nav-link" >Permit Report</Link>
           </li>
           <li className="nav-item">
-          <Link to="/" className="nav-link" >Logout</Link>
+              <Link to="Logout" className="nav-link" >Logout</Link>
           </li>
           
         </ul>
