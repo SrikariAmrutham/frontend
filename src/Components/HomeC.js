@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import lic from "./lic.png"
 import reg from "./reg.png"
 
-function Home_c()
+function HomeC()
 {
     return(
         <>
@@ -57,4 +57,4 @@ function Home_c()
     );
 
 }
-export default Home_c
+export default HomeC
